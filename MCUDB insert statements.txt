@@ -1,0 +1,51 @@
+INSERT INTO movies (
+        "name",
+        "description",
+        "run_time",
+        "release_date",
+        "viewer_rating",
+        "critic_rating",
+        "director_id"
+    )
+VALUES(
+    'NAME',
+    'DESCRIPTION',
+    'RUN_TIME',
+    'RELEASE_DATE',
+    'VIEWER_RATING',
+    'CRITIC_RATING',
+    'DIRECTOR_ID'
+);
+
+INSERT INTO directors ("first_name", "last_name", "age")
+VALUES (
+    'FIRST_NAME',
+    'LAST_NAME',
+    'AGE'
+);
+
+INSERT INTO comic_stories ("title", "description", "writer_id", "illustrator_id")
+VALUES(
+    'TIELE',
+    'DESCRIPTION',
+    'WRITER_ID',
+    'ILLUSTRATOR_ID'
+);
+
+INSERT INTO comic_writers ("first_name", "last_name")
+VALUES(
+    'FIRST_NAME',
+    'LAST_NAME'
+);
+
+INSERT INTO comic_illustrators ("first_name", "last_name")
+VALUES(
+    'FIRST_NAME',
+    'LAST_NAME'
+);
+
+INSERT INTO comic_inspirations ("comic_stories_id", "movies_id")
+VALUES(
+    'COMIC_STORIES_ID',
+    'MOVIES_ID'
+);
