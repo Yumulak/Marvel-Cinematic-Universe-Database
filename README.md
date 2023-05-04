@@ -1,5 +1,5 @@
 Title: Marvel Cinematic Movie Database (MCUMDB)
-Description: A database of all currently release movies which are part of the marvel cinematic universe. This database includes information on who directed each movie and what comic storylines each movie is based on, including the comic writers and illustrators for each of those. 
+Description: A database of all currently released movies which are part of the marvel cinematic universe. This database includes information on who directed each movie and what comic storylines each movie is based on, including the comic writers and illustrators for each of those. 
 API Reference Table:
 Questions: 
 1. How did the projects design evolve over time?
